@@ -1,0 +1,38 @@
+{
+  "name": "custom-button",
+  "version": "1.0.0",
+  "description": "A customizable button component for React Native",
+  "main": "dist/CustomButton.js",
+  "types": "dist/CustomButton.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "button",
+    "custom",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/custom-button.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/custom-button/issues"
+  },
+  "homepage": "https://github.com/your-username/custom-button#readme",
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-native": "^0.64.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
